@@ -1,0 +1,137 @@
+nav{
+    background-color: #1a2e42;
+    height: 100px;
+    position: sticky;
+    width: 100%;
+}
+.navbar{
+    max-width: 1300px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    color: white;
+    font-size: 30px;
+    font-family: 'Gabarito', sans-serif;
+    font-weight: 700;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 350px;
+}
+.sections ul a{
+    color: white;
+    display: inline-block;
+    font-family: 'Gabarito', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    text-align: center;
+}
+/* .sections ul a:hover{
+    border-radius: 10px;
+    width: 110px;
+    height: 50px;
+    background-color: #1abc9c;
+    padding-top: 15px;
+} */
+.home{
+    background-color:#1abc9c ;
+    padding: 70px;
+    height: 71vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.home img{
+    width: 250px;
+}
+.home h1{
+    color: white;
+    font-family: 'Gabarito', sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+}
+.home p{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+}
+.divider{
+    display: flex;
+    width: 360px;
+    height: 50px;
+    flex-direction: row;
+    letter-spacing: -3px;
+    justify-content: space-between;
+}
+.divider p{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+.divider i{
+    margin-top: 5px;
+    font-size: 30px;
+    color: white;
+}
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 100%;
+    padding: 80px;
+    height: 90vh;
+}
+.portfolio h1{
+    color:#1a2e42;
+    font-family: 'Gabarito', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+}
+.portfolio img{
+    width: 356px;
+    height: 257px;
+    border-radius: 10px;
+}
+.portfolio .divider p{
+    color: #1a2e42;
+}
+.portfolio .divider i{
+    color: #1a2e42;
+}
+.portfolio .images{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+max-width: 1200px;
+gap: 40px;
+}
+.about{
+    background-color: #1abc9c;
+    color: white;
+    
+}
+.about h1{
+    text-align: center;
+    font-family: 'Gabarito', sans-serif;
+    font-size: 46px;
+}
+.text{
+    display: flex;
+    justify-content: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    font-family: 'Montserrat', sans-serif;
+    gap: 10px;
+}
+.text p{
+    font-size: 22px;
+    font-weight:400;
+}
