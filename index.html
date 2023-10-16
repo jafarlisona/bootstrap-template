@@ -31,121 +31,148 @@
             <li><a href="#contact">CONTACT</a></li>
           </ul>
         </div>
+        <div class="menu">
+          MENU
+          <i class="fa-solid fa-bars"></i>
+        </div>
       </div>
     </nav>
     <main>
       <section>
         <div class="home">
-          <img
-            src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/avataaars.svg"
-            alt=""
-          />
-          <h1>START BOOTSTRAP</h1>
+          <div class="home-container">
+            <img
+              src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/avataaars.svg"
+              alt=""
+            />
+            <h1>START BOOTSTRAP</h1>
+            <div class="divider">
+              <p>-----------------</p>
+              <i class="fa-solid fa-star"></i>
+              <p>-----------------</p>
+            </div>
+            <p>Graphic Artist - Web Designer - Illustrator</p>
+          </div>
+        </div>
+      </section>
+      <section class="portfolio" id="portfolio">
+        <div class="portfolio-container">
+          <h1>PORTFOLIO</h1>
           <div class="divider">
             <p>-----------------</p>
             <i class="fa-solid fa-star"></i>
             <p>-----------------</p>
           </div>
-          <p>Graphic Artist - Web Designer - Illustrator</p>
-        </div>
-      </section>
-      <section class="portfolio" id="portfolio">
-        <h1>PORTFOLIO</h1>
-        <div class="divider">
-          <p>-----------------</p>
-          <i class="fa-solid fa-star"></i>
-          <p>-----------------</p>
-        </div>
-        <div class="images">
-          <div>
-            <img
-              src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/cabin.png"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-              src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/cake.png"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-              src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/circus.png"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-              src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/game.png"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-              src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/safe.png"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-              src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/submarine.png"
-              alt=""
-            />
+          <div class="images">
+            <div>
+              <img
+                src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/cabin.png"
+                alt=""
+              />
+            </div>
+            <div>
+              <img
+                src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/cake.png"
+                alt=""
+              />
+            </div>
+            <div>
+              <img
+                src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/circus.png"
+                alt=""
+              />
+            </div>
+            <div>
+              <img
+                src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/game.png"
+                alt=""
+              />
+            </div>
+            <div>
+              <img
+                src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/safe.png"
+                alt=""
+              />
+            </div>
+            <div>
+              <img
+                src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/submarine.png"
+                alt=""
+              />
+            </div>
           </div>
         </div>
       </section>
       <section class="about" id="about">
-        <h1>ABOUT</h1>
-        <div class="divider">
-          <p>-----------------</p>
-          <i class="fa-solid fa-star"></i>
-          <p>-----------------</p>
+        <div class="about-container">
+          <h1>ABOUT</h1>
+          <div class="divider">
+            <p>-----------------</p>
+            <i class="fa-solid fa-star"></i>
+            <p>-----------------</p>
+          </div>
+          <div class="text">
+            <p>
+              Freelancer is a free bootstrap theme created by Start Bootstrap.
+              The download includes the complete source files including HTML,
+              CSS, and JavaScript as well as optional SASS stylesheets for easy
+              customization.
+            </p>
+            <p>
+              You can create your own custom avatar for the masthead, change the
+              icon in the dividers, and add your email address to the contact
+              form to make it fully functional!
+            </p>
+          </div>
+          <button><i class="fa-solid fa-download"></i> Free Download!</button>
         </div>
-        <div class="text">
-          <p>
-            Freelancer is a free bootstrap theme created by Start Bootstrap. The
-            download includes the complete source files including HTML, CSS, and
-            JavaScript as well as optional SASS stylesheets for easy
-            customization.
-          </p>
-          <p>
-            You can create your own custom avatar for the masthead, change the
-            icon in the dividers, and add your email address to the contact form
-            to make it fully functional!
-          </p>
-        </div>
-        <button>Free Download!</button>
       </section>
-      <!-- <section class="contact" id="contact">
-        <h1>CONTACT ME</h1>
-        <form>
-            <label for=""></label>
-            <input type="text">
-            <label for=""></label>
-            <input type="text">
-            <label for=""></label>
-            <input type="text">
+      <section class="contact" id="contact">
+        <div class="contact-container">
+          <h1>CONTACT ME</h1>
+          <div class="divider">
+            <p>-----------------</p>
+            <i class="fa-solid fa-star"></i>
+            <p>-----------------</p>
+          </div>
+          <form>
+            <label for="name">Full name</label>
+            <input type="text" id="name" placeholder="Full name"/>
+            <label for="email">Email address</label>
+            <input type="email" id="email" placeholder="Email address" />
+            <label for="number">Phone number</label>
+            <input type="tel" id="number" placeholder="Phone number"/>
             <label for="message">Message</label>
-            <textarea name="" id="" cols="30" rows="10"></textarea>
-        </form>
-        <button>Send</button>
-      </section>  -->
+            <textarea name="message" id="message" placeholder="Message" cols="100" rows="5"></textarea>
+          </form>
+          <button>Send</button>
+        </div>
+      </section>
     </main>
-    <!-- <footer>
+    <footer>
         <div class="footer">
             <div class="location">
                 <h2>LOCATION</h3>
-                <p>2215 John Daniel Drive
-                    Clark, MO 65243</p>
+                  <div class="p-text">
+                    <p>2215 John Daniel Drive
+                        Clark, MO 65243</p>
+                  </div>
             </div>
             <div class="medias">
                 <h2>AROUND THE WEB</h2>
                 <div class="icons">
-                    <div class="icon1"></div>
-                    <div class="icon2"></div>
-                    <div class="icon3"></div>
-                    <div class="icon4"></div>
+                    <div class="icon1">
+                      <i class="fa-brands fa-facebook-f"></i>
+                    </div>
+                    <div class="icon2"> 
+                    <i class="fa-brands fa-twitter"></i>
+                    </div>
+                    <div class="icon3">
+                      <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                    <div class="icon4">
+                      <i class="fa-brands fa-dribbble"></i>
+                    </div>
                 </div>
             </div>
             <div class="ab-freelancer">
@@ -156,6 +183,6 @@
         <div class="copyright">
             <span>Copyright © Your Website 2023</span>
         </div>
-    </footer> -->
+    </footer>
   </body>
 </html>
